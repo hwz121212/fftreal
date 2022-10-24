@@ -97,7 +97,7 @@ private:
 
 
 
-#include	"ffft/test/TestAccuracy.hpp"
+#include	"TestAccuracy.hpp"
 
 
 

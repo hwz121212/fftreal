@@ -27,11 +27,11 @@ http://sam.zoy.org/wtfpl/COPYING for more details.
 
 /*\\\ INCLUDE FILES \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
 
-#include	"ffft/test/conf.h"
+#include	"conf.h"
 
-#include	"ffft/test/TestAccuracy.h"
+#include	"TestAccuracy.h"
 #if defined (ffft_test_SPEED_TEST_ENABLED)
-	#include	"ffft/test/TestSpeed.h"
+	#include	"TestSpeed.h"
 #endif
 
 

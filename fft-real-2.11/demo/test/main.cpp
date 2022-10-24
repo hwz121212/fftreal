@@ -24,9 +24,9 @@ http://sam.zoy.org/wtfpl/COPYING for more details.
 
 /*\\\ INCLUDE FILES \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
 
-#include	"ffft/test/conf.h"
-#include	"ffft/test/TestHelperFixLen.h"
-#include	"ffft/test/TestHelperNormal.h"
+#include	"conf.h"
+#include	"TestHelperFixLen.h"
+#include	"TestHelperNormal.h"
 
 #if defined (_MSC_VER)
 #include	<crtdbg.h>

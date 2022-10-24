@@ -88,7 +88,7 @@ private:
 
 
 
-#include	"ffft/test/TestSpeed.hpp"
+#include	"TestSpeed.hpp"
 
 
 

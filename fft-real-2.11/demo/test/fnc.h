@@ -46,7 +46,7 @@ inline T	limit (const T &x, const T &inf, const T &sup);
 
 
 
-#include	"ffft/test/fnc.hpp"
+#include	"fnc.hpp"
 
 
 

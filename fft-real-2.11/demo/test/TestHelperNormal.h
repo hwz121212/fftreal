@@ -86,7 +86,7 @@ private:
 
 
 
-#include	"ffft/test/TestHelperNormal.hpp"
+#include	"TestHelperNormal.hpp"
 
 
 

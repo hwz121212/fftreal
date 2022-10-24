@@ -27,8 +27,8 @@ http://sam.zoy.org/wtfpl/COPYING for more details.
 
 /*\\\ INCLUDE FILES \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
 
-#include	"ffft/test/fnc.h"
-#include	"ffft/test/TestWhiteNoiseGen.h"
+#include	"fnc.h"
+#include	"TestWhiteNoiseGen.h"
 #include	"stopwatch/StopWatch.h"
 
 #include	<typeinfo>

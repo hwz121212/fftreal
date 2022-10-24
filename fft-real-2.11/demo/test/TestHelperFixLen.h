@@ -85,7 +85,7 @@ private:
 
 
 
-#include	"ffft/test/TestHelperFixLen.hpp"
+#include	"TestHelperFixLen.hpp"
 
 
 

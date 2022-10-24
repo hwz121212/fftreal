@@ -88,7 +88,7 @@ private:
 
 
 
-#include	"ffft/test/TestWhiteNoiseGen.hpp"
+#include	"TestWhiteNoiseGen.hpp"
 
 
 
