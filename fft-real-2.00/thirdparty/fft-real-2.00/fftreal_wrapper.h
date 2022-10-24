@@ -20,12 +20,12 @@
 #ifndef FFTREAL_WRAPPER_H
 #define FFTREAL_WRAPPER_H
 
-#include <QtCore/QtGlobal>
+//#include <QtCore/QtGlobal>
 
 #if defined(FFTREAL_LIBRARY)
-#  define FFTREAL_EXPORT Q_DECL_EXPORT
+#  define FFTREAL_EXPORT __declspec(dllexport)
 #else
-#  define FFTREAL_EXPORT Q_DECL_IMPORT
+#  define FFTREAL_EXPORT __declspec(dllimport)
 #endif
 
 class FFTRealWrapperPrivate;
