@@ -76,7 +76,7 @@
       <DisableSpecificWarnings>4530;4577;4577;4467;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <ExceptionHandling>false</ExceptionHandling>
       <Optimization>MaxSpeed</Optimization>
-      <PreprocessorDefinitions>_WINDOWS;UNICODE;_UNICODE;WIN32;WIN64;LOG_SPECTRUMANALYSER;LOG_ENGINE;SUPERIMPOSE_PROGRESS_ON_WAVEFORM;SPECTRUM_ANALYSER_SEPARATE_THREAD;_CRT_SECURE_NO_WARNINGS;FFTREAL_LIBRARY;QT_NO_EXCEPTIONS;QT_NO_DEBUG;NDEBUG;</PreprocessorDefinitions>
+      <PreprocessorDefinitions>FFTREAL_DLL;FFTREAL_EXPORT;_WINDOWS;UNICODE;_UNICODE;WIN32;WIN64;LOG_SPECTRUMANALYSER;LOG_ENGINE;SUPERIMPOSE_PROGRESS_ON_WAVEFORM;SPECTRUM_ANALYSER_SEPARATE_THREAD;_CRT_SECURE_NO_WARNINGS;FFTREAL_LIBRARY;QT_NO_EXCEPTIONS;QT_NO_DEBUG;NDEBUG;</PreprocessorDefinitions>
       <PreprocessToFile>false</PreprocessToFile>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <SuppressStartupBanner>true</SuppressStartupBanner>
@@ -117,7 +117,7 @@
       <DisableSpecificWarnings>4530;4577;4577;4467;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <ExceptionHandling>false</ExceptionHandling>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>_WINDOWS;UNICODE;_UNICODE;WIN32;WIN64;LOG_SPECTRUMANALYSER;LOG_ENGINE;SUPERIMPOSE_PROGRESS_ON_WAVEFORM;SPECTRUM_ANALYSER_SEPARATE_THREAD;_CRT_SECURE_NO_WARNINGS;FFTREAL_LIBRARY;QT_NO_EXCEPTIONS;</PreprocessorDefinitions>
+      <PreprocessorDefinitions>FFTREAL_DLL;FFTREAL_EXPORT;_WINDOWS;UNICODE;_UNICODE;WIN32;WIN64;LOG_SPECTRUMANALYSER;LOG_ENGINE;SUPERIMPOSE_PROGRESS_ON_WAVEFORM;SPECTRUM_ANALYSER_SEPARATE_THREAD;_CRT_SECURE_NO_WARNINGS;FFTREAL_LIBRARY;QT_NO_EXCEPTIONS;</PreprocessorDefinitions>
       <PreprocessToFile>false</PreprocessToFile>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <SuppressStartupBanner>true</SuppressStartupBanner>

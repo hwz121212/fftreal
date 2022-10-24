@@ -22,11 +22,17 @@
 
 //#include <QtCore/QtGlobal>
 
-#if defined(FFTREAL_LIBRARY)
-#  define FFTREAL_EXPORT __declspec(dllexport)
+#if defined(FFTREAL_DLL)
+#if defined(FFTREAL_EXPORT)
+#  define FFTREAL_API __declspec(dllexport)
 #else
-#  define FFTREAL_EXPORT __declspec(dllimport)
+#  define FFTREAL_API __declspec(dllimport)
 #endif
+#else
+#  define FFTREAL_API
+#endif
+
+
 
 class FFTRealWrapperPrivate;
 
@@ -46,7 +52,7 @@ static const int FFTLengthPowerOfTwo = 12;
  *
  * See http://ldesoras.free.fr/prod.html
  */
-class FFTREAL_EXPORT FFTRealWrapper
+class FFTREAL_API FFTRealWrapper
 {
 public:
     FFTRealWrapper();
